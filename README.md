@@ -29,97 +29,23 @@
     ![免费迁城](https://img.picui.cn/free/2024/10/07/6702c1f4d1786.jpg)
     + 游戏中的小地图可以查看建筑详情
     ![游戏地图](https://img.picui.cn/free/2024/10/07/6702c2a8e6383.jpg)
-    + 丑
-    + 寅
-    + 卯
+    + 游戏中最重要的是皇家兵工厂，是整个活动中最重要的建筑，能大大提高分数
+    ![兵工厂](https://img.picui.cn/free/2024/10/07/6702c3abe982e.jpg)
+    + 任意一方占领兵工厂之后，对方的**雇佣兵**会每隔一段时间对兵工厂发起攻击
+    ![雇佣兵](https://img.picui.cn/free/2024/10/07/6702c415d1797.jpg)
+    + 低战/有空余队列的，可以在**武器车间**获得得分（和挖矿一样）
+    ![武器车间](https://img.picui.cn/free/2024/10/07/6702c49499eab.jpg)
+    + 游戏中，士兵**不会死亡**，但是依然会受伤，受伤的士兵**无法通过联盟互助**治疗，只能使用加速
+    ![士兵治疗](https://img.picui.cn/free/2024/10/07/6702c4fa9a5fe.jpg)
+    + 最后，恭喜你，获得胜利
+    ![获得胜利](https://img.picui.cn/free/2024/10/07/6702c5aa84aaf.jpg)
 
-## 引用
+## 小技巧
 
-> 欲穷千里目，更上一层楼
+> 在匹配时，大家可以卸下自己的英雄装备，降低自己实力，等匹配完成后再重新装备
 
->> 举头望明月，低头思故乡
+> 士兵受伤太多，可以点击顶部菜单（如图1），选择退出战场（如图2），等待12分钟后再次入场（如图3）
+>>![图1](https://img.picui.cn/free/2024/10/07/6702c6b5127d7.jpg)
+>>>![图2](https://img.picui.cn/free/2024/10/07/6702c70c7fa17.jpg)
+>>>>![图3](https://img.picui.cn/free/2024/10/07/6702c749e62c8.jpg)
 
->>> 今春看又过，何日是归年
-
-## 代码
-
-**内联代码**
-
-`import`
-
-**代码段**
-
-``` js
-// 如何实现一个防抖函数
-function debounce (f, wait) {
-  let timer
-  return (...args) => {
-    clearTimeout(timer)
-    timer = setTimeout(() => f(...args), wait)
-  }
-}
-```
-
-## 标题
-
-以下是关于标题的样式
-
-# 一级标题
-
-## 二级标题
-
-### 三级标题
-
-
-## 主题
-
-多主题被我开源在了 Github 仓库: [markdown-theme](https://github.com/shfshanyue/markdown-theme)。
-
-| Theme | 中文 | Author | Preview |
-| --- | --- | --- | --- |
-| github | \- | [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) | [Preview](https://markdown-theme.vercel.app/#github) |
-| shanchui | 山吹 | [#66CCFF](https://github.com/elyhg) | [Preview](https://markdown-theme.vercel.app/#shanchui) |
-| shanyue | 山月 | [shanyue](https://github.com/shfshanyue) | [Preview](https://npm.devtool.tech/lodash) |
-| condensed-night-purple | 凝夜紫 | [童欧巴](https://github.com/Geekhyt) | [Preview](https://markdown-theme.vercel.app/#condensed-night-purple) |
-
-## 外链
-
-这里是[山月的博客](https://shanyue.tech)，这里是山月进行了多年面试总结的[前端面试题](https://q.shanyue.tech)。
-
-您可以点击编辑器右上角进行**微信外链转脚注**与**微信外链转二维码**，并点击右上角微信图标进行复制。
-
-这里是[山月的博客 (不显示二维码)](shanyue.tech)，这里是山月进行了多年面试总结的[前端面试题 (不显示二维码)](q.shanyue.tech)。
-
-如果链接地址不是以 `http` 开头，则不会显示它的二维码。
-
-## URL to Markdown
-
-您可以点击 MDTU 编辑器右上角**链接采集按钮**，输入 URL 回车确认可从 URL 中获取 Markdown。
-
-![链接采集](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/23487fbd375e42c8b1ac6410c89fb656~tplv-k3u1fbpfcp-watermark.image)
-
-## 自动编号、插入目录、插入导图
-
-您可以点击 MDTU 编辑器左上角**自动编号**，将会对一级标题、二级标题、三级标题进行自动编号。
-
-## 使用模板
-
-您可以点击 MDTU 编辑器 `使用模板 -> 管理模板` 按钮，配置自己的模板。
-
-使用占位符 `{{ content }}` 代表正文内容。
-
-## 方格背景
-
-您可以点击 MDTU 编辑器 `UI -> 方格背景`，将会对该主题添加上方格背景。
-
-## 赞赏
-
-如果该工具对你有所帮助，可以请我喝一瓶~~农夫山泉~~冰露 (别人说农夫山泉太奢侈，这里改成冰露吧)
-
-![请我喝一瓶冰露](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/263bac43ead842bab0efbf6a431f4e32~tplv-k3u1fbpfcp-watermark.image)
-
-## 交流
-
-欢迎扫码添加我的微信，加入 MDTU 编辑器交流群
-
-![shanyue94](https://shanyue.tech/wechat.jpeg)
