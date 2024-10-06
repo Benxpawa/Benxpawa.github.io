@@ -1,0 +1,1147 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="一只鸽子濒死前最后的幻想罢了awa" />
+    <title>
+                Benxp    </title>
+    <style>
+        :root {
+            --themecolor: #ea868f;
+            --themehovercolor: #DB2777;
+        }
+
+        [data-theme="dark"] {
+            --themecolor: #b45864;
+            --themehovercolor: #d72b6f;
+        }
+    </style>    <!-- Initial Theme Script -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' 
+
+: 'light';
+            const initialTheme = savedTheme === 'auto' || !savedTheme ? systemTheme : savedTheme;
+            document.documentElement.setAttribute('data-theme', initialTheme);
+        })();
+    </script>
+    <!-- Dark Mode -->
+    <script>
+        function setTheme(theme) {
+            if (theme === 'auto') {
+                const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 
+
+'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', systemTheme);
+                localStorage.setItem('theme', 'auto');
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            }
+            updateIcon(theme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = localStorage.getItem('theme') || 'auto';
+            let newTheme;
+
+            if (currentTheme === 'light') {
+                newTheme = 'dark';
+            } else if (currentTheme === 'dark') {
+                newTheme = 'auto';
+            } else {
+                newTheme = 'light';
+            }
+
+            setTheme(newTheme);
+        }
+
+        function updateIcon(theme) {
+            const iconElement = document.getElementById('theme-icon');
+            if (iconElement) {
+                iconElement.classList.remove('icon-sun-inv', 'icon-moon-inv', 'icon-auto');
+                if (theme === 'light') {
+                    iconElement.classList.add('icon-sun-inv');
+                } else if (theme === 'dark') {
+                    iconElement.classList.add('icon-moon-inv');
+                } else {
+                    iconElement.classList.add('icon-auto');
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'auto';
+            setTheme(savedTheme);
+        });
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+            if (localStorage.getItem('theme') === 'auto') {
+                const newTheme = e.matches ? 'dark' : 'light';
+                document.documentElement.setAttribute('data-theme', newTheme);
+                updateIcon('auto');
+            }
+        });
+    </script>
+    <!-- Style CSS -->
+    <link rel="stylesheet" 
+
+href="https://www.minehive.cn/usr/themes/PureSuck/css/PureSuck_Style.css">
+    <!-- AOS -->
+    <script src="https://www.minehive.cn/usr/themes/PureSuck/js/aos.js"></script>
+    <!-- ICON Setting -->
+    <link rel="icon" href="https://www.minehive.cn/img/favicon/favicon.ico" type="image/x-icon">
+    <!-- CSS引入 -->
+    <link href="https://www.minehive.cn/usr/themes/PureSuck/css/a11y-dark.min.css" 
+
+rel="stylesheet">
+    <link href="https://www.minehive.cn/usr/themes/PureSuck/css/PureSuck_Module.css" 
+
+rel="stylesheet">
+    <!-- JS引入 -->
+    <script defer src="https://www.minehive.cn/usr/themes/PureSuck/js/medium-zoom.min.js"></script>
+    <script defer src="https://www.minehive.cn/usr/themes/PureSuck/js/OwO.min.js"></script>
+    <script defer src="https://www.minehive.cn/usr/themes/PureSuck/js/highlight.min.js"></script>
+    <script defer src="https://www.minehive.cn/usr/themes/PureSuck/js/PureSuck_Module.js"></script>
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <header class="header" data-js="header">
+            <div class="wrapper header-wrapper header-title">
+                <span class="el-avatar el-avatar--circle">
+                    <img src="https://www.minehive.cn/logo.png" style="object-fit:cover;" alt="博主
+
+头像" width="512" height="512">
+                </span>
+                <div class="header-title">
+                    Benxp(δωδ)」                </div>
+                <p itemprop="description" class="header-item header-about">
+                    一个还没想到用处的页面                </p>
+                <div class="left-side-custom-code">
+                                    </div>
+                <div class="nav header-item header-credit">
+                    AwA-QaQ
+                    <br>
+                    Edit By Benxp
+                </div>
+                <nav class="nav header-item header-nav">
+                    <span class="nav-item">
+                        <a href="/" title="首页">
+                            <span itemprop="name">首页</span>
+                        </a>
+                    </span>
+                    
+                </nav>
+               
+            </div>
+        </header>
+        <main class="main">
+
+
+<div class="wrapper">
+
+                    <article class="post post--text post--index main-item" data-aos="fade-up" 
+
+data-aos-anchor-placement="top-bottom">
+            <div class="post-inner">
+                <header class="post-item post-header  ">
+                    <div class="wrapper post-wrapper">
+                        <div class="avatar post-author">
+                            <img src="https://www.minehive.cn/logo.png" alt="作者头像" 
+
+class="avatar-item avatar-img">
+                            <span class="avatar-item">
+                                Benxp                            </span>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- 大图样式 -->
+                
+                <!-- 文章作者 -->
+                <section class="post-item post-body">
+                    <div class="wrapper post-wrapper">
+                        <h1 class="post-title">
+                            <a href="/blzdz" title="堡垒争夺战 - 教程篇">
+                                堡垒争夺战 - 教程篇                            </a>
+                        </h1>
+                        <!-- 摘要 -->
+                        <p class="post-excerpt">
+                                                            #1151 【AWA】盛世璃月教程篇 - 堡垒争夺
+
+战 <br /> Tips：电脑排版有点奇怪，建议用手机查看                                                    
+
+</p>
+                    </div>
+                </section>
+
+                <footer class="post-item post-footer">
+                    <div class="wrapper post-wrapper">
+                        <div class="meta post-meta">
+                            <a itemprop="datePublished" href="/blzdz" class="icon-ui icon-ui-date 
+
+meta-item meta-date">
+                                <span class="meta-count">
+                                    2024-10-07                                </span>
+                            </a>
+                            <a href="/blzdz" class="icon-ui icon-ui-comment meta-item meta-
+
+comment">
+                                AwA                            </a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </article>
+            </div>
+        </article>
+    </div>
+
+            <script>
+                (function () {
+                    function loadFontAwesome() {
+                        if (document.querySelector('.fa')) {
+                            let rel = document.createElement('link');
+                            rel.rel = 'stylesheet';
+                            rel.href = 
+
+'https://www.minehive.cn/usr/plugins/AAEditor/assets/mirror/css/font-awesome.min.css';
+                            document.body.appendChild(rel);
+                        }
+                    }
+                    loadFontAwesome();
+                    document.addEventListener('pjax:complete', () => {
+                        loadFontAwesome();
+                    });
+                })();
+            </script>
+                        <script id="MathJax-script" async
+                    src="https://www.minehive.cn/usr/plugins/AAEditor/assets/mirror/js/tex-mml-
+
+chtml.js"></script>
+            <script>
+                // 配置 MathJax
+                MathJax = {
+                    tex: {
+                        inlineMath: [['$', '$']],
+                        displayMath: [['$$', '$$']],
+                        processEscapes: true,
+                        processEnvironments: true,
+                    },
+                    options: {
+                        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                    },
+                };
+                // 刷新预时重新渲染
+                document.addEventListener('pjax:complete', () => {
+                    try {
+                        MathJax.typesetPromise();
+                    } catch (e) {
+
+                    }
+                });
+            </script>
+                    <style>
+            .x-hide{background-color:#f3f4f6;border:1px solid #ccc;border-radius:4px;padding:32px 
+
+8px 8px;position:relative}.x-hide br:first-child{display:none}.x-hide.already-hide{text-
+
+align:center}.x-hide .x-hide-icon
+
+{fill:currentColor;cursor:pointer;display:flex;height:16px;position:absolute;right:8px;top:8px;widt
+
+h:16px}.x-hide .x-hide-icon svg{margin-top:-4px}.x-hide .x-hide-text
+
+{cursor:pointer;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-
+
+select:none;user-select:none}.x-hide:before{background:#fc625d;border-radius:50%;box-shadow:20px 0 
+
+#fdbc40,40px 0 #35cd4b;content:"";height:12px;left:8px;position:absolute;top:10px;width:12px;z-
+
+index:1}.x-hide.blur .x-hide-text{filter:blur(5px)}.x-checkbox{display:none}.x-checkbox-label
+
+{background-color:#99f;border-radius:4px;box-sizing:border-box;cursor:not-allowed;display:inline-
+
+flex;height:20px;margin-bottom:2px;-webkit-mask-image:url("data:image/svg
+
++xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI
+
++PHBhdGggZD0iTTUgM2MtMS4wOTMgMC0yIC45MDctMiAydjE0YzAgMS4wOTMuOTA3IDIgMiAyaDE0YzEuMDkzIDAgMi0uOTA3ID
+
+ItMlY1YzAtMS4wOTMtLjkwNy0yLTItMkg1em0wIDJoMTR2MTRINVY1eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc
+
++");mask-image:url("data:image/svg
+
++xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI
+
++PHBhdGggZD0iTTUgM2MtMS4wOTMgMC0yIC45MDctMiAydjE0YzAgMS4wOTMuOTA3IDIgMiAyaDE0YzEuMDkzIDAgMi0uOTA3ID
+
+ItMlY1YzAtMS4wOTMtLjkwNy0yLTItMkg1em0wIDJoMTR2MTRINVY1eiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+");-
+
+webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-
+
+repeat;-webkit-mask-size:contain;mask-size:contain;position:relative;vertical-
+
+align:middle;width:20px}.x-checkbox:checked+.x-checkbox-label{-webkit-mask-image:url
+
+("data:image/svg
+
++xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI
+
++PHBhdGggZD0iTTUgM2MtMS4wOTMgMC0yIC45MDctMiAydjE0YzAgMS4wOTMuOTA3IDIgMiAyaDE0YzEuMDkzIDAgMi0uOTA3ID
+
+ItMlY1YzAtMS4wOTMtLjkwNy0yLTItMkg1em0wIDJoMTR2MTRINVY1em0xMS4yOTMgMy4yOTNMMTAgMTQuNTg2bC0yLjI5My0yL
+
+jI5My0xLjQxNCAxLjQxNEwxMCAxNy40MTRsNy43MDctNy43MDctMS40MTQtMS40MTR6IiBmaWxsPSJjdXJyZW50Q29sb3IiLz48
+
+L3N2Zz4=");mask-image:url("data:image/svg
+
++xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI
+
++PHBhdGggZD0iTTUgM2MtMS4wOTMgMC0yIC45MDctMiAydjE0YzAgMS4wOTMuOTA3IDIgMiAyaDE0YzEuMDkzIDAgMi0uOTA3ID
+
+ItMlY1YzAtMS4wOTMtLjkwNy0yLTItMkg1em0wIDJoMTR2MTRINVY1em0xMS4yOTMgMy4yOTNMMTAgMTQuNTg2bC0yLjI5My0yL
+
+jI5My0xLjQxNCAxLjQxNEwxMCAxNy40MTRsNy43MDctNy43MDctMS40MTQtMS40MTR6IiBmaWxsPSJjdXJyZW50Q29sb3IiLz48
+
+L3N2Zz4=")}
+
+/*# sourceMappingURL=x.css.map*/        </style>
+                <script 
+
+src="https://www.minehive.cn/usr/plugins/AAEditor/assets/mirror/js/APlayer.min.js"></script>
+        <link href="https://www.minehive.cn/usr/plugins/AAEditor/assets/mirror/css/APlayer.min.css"
+              rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Audio/index.css?
+
+h=2d85cf5f4526da47d090fe36cb0d1deb">
+        <script>
+                        document.addEventListener('DOMContentLoaded', parseAllAudio);
+            document.addEventListener('pjax:complete', parseAllAudio);
+                        function parseAllAudio() {
+                Array.from(document.querySelectorAll('.x-album:not([loaded])')).forEach(el => {
+                    el.setAttribute('loaded', '');
+                    parseAlbum(el);
+                });
+
+                Array.from(document.querySelectorAll('.x-audio:not([loaded])')).forEach(el => {
+                    el.setAttribute('loaded', '');
+                    let obj = parseAudioElementToSource(el);
+                    if (obj) {
+                        new APlayer({
+                            container: el,
+                            preload: 'auto',
+                            autoplay: el.getAttribute("autoplay") === "on",
+                            loop: el.getAttribute("loop") === "true",
+                            listFolded: true,
+                            listMaxHeight: 300,
+                            volume: 0.7,
+                            audio: [obj]
+                        });
+                    }
+                })
+            }
+
+            function parseAlbum(el) {
+                let autoplay = el.getAttribute('autoplay') === "on",
+                    loop = el.getAttribute('loop') === "on",
+                    order = el.getAttribute('order') || "list",
+                    audioList = [];
+                Array.from(el.childNodes).forEach(child => {
+                    switch (child.tagName) {
+                        case "SPAN":
+                            el.before(child);
+                            break;
+                        default:
+                            if (child.classList.contains('x-audio')) {
+                                let obj = parseAudioElementToSource(child);
+                                if (obj) {
+                                    audioList.push(obj);
+                                }
+                            }
+                            el.removeChild(child);
+                            break;
+                    }
+                });
+
+                if (audioList.length) {
+                    new APlayer({
+                        container: el,
+                        preload: 'auto',
+                        autoplay: autoplay,
+                        loop: loop,
+                        order: order,
+                        listFolded: audioList.length < 2,
+                        listMaxHeight: 300,
+                        volume: 0.7,
+                        audio: audioList
+                    });
+                } else {
+                    el.innerHTML = errorHTML("播放列表是空的！");
+                }
+            }
+
+            function parseAudioElementToSource(el) {
+                let url = el.getAttribute("url") || el.getAttribute("src");
+                let name = el.getAttribute('name') || decodeURIComponent(getFileNameFromUrl(url));
+                let artist = el.getAttribute('artist');
+                if (name.includes(" - ") && typeof artist !== "string") {
+                    artist = name.split(" - ")[0];
+                    name = name.split(" - ")[1];
+                }
+                if (url) {
+                    return {
+                        name: name,
+                        url: decodeURIComponent(url),
+                        artist: artist || '未知艺术家',
+                        cover: el.getAttribute('cover') || "data:image/svg
+
++xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI
+
++PHBhdGggZmlsbD0iIzhiYjdmMCIgZD0iTTIwLDM3LjVjLTkuNiwwLTE3LjUtNy45LTE3LjUtMTcuNVMxMC40LDIuNSwyMCwyLj
+
+VTMzcuNSwxMC40LDM3LjUsMjBTMjkuNiwzNy41LDIwLDM3LjV6IE0yMCwxNi43Yy0xLjgsMC0zLjMsMS41LTMuMywzLjNzMS41L
+
+DMuMywzLjMsMy4zczMuMy0xLjUsMy4zLTMuM1MyMS44LDE2LjcsMjAsMTYuN3oiLz48cGF0aCBmaWxsPSIjNGU3YWI1IiBkPSJN
+
+MjAsM2M5LjQsMCwxNyw3LjYsMTcsMTdzLTcuNiwxNy0xNywxN1MzLDI5LjQsMywyMFMxMC42LDMsMjAsMyBNMjAsMjMuOGMyLjE
+
+sMCwzLjgtMS43LDMuOC0zLjhzLTEuNy0zLjgtMy44LTMuOHMtMy44LDEuNy0zLjgsMy44UzE3LjksMjMuOCwyMCwyMy44IE0yMC
+
+wyQzEwLjEsMiwyLDEwLjEsMiwyMHM4LjEsMTgsMTgsMThzMTgtOC4xLDE4LTE4UzI5LjksMiwyMCwyTDIwLDJ6IE0yMCwyMi44Y
+
+y0xLjUsMC0yLjgtMS4yLTIuOC0yLjhzMS4yLTIuOCwyLjgtMi44czIuOCwxLjIsMi44LDIuOEMyMi44LDIxLjUsMjEuNSwyMi44
+
+LDIwLDIyLjhMMjAsMjIuOHoiLz48cGF0aCBmaWxsPSIjYzJlOGZmIiBkPSJNMjUuOSw0LjFsLTQuNiwxMi40YzAuOSwwLjQsMS4
+
+3LDEuMSwyLjEsMmwxMi4xLTUuNEMzMy42LDguOSwzMC4yLDUuNywyNS45LDQuMXoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMj
+
+UuOSw0LjFsLTQuNiwxMi40YzAuMywwLjEsMC42LDAuMywwLjksMC41bDcuNy0xMC43QzI4LjcsNS4zLDI3LjMsNC42LDI1LjksN
+
+C4xeiIvPjxwYXRoIGZpbGw9IiNjMmU4ZmYiIGQ9Ik0xNC4xLDM1LjlsNC42LTEyLjRjLTAuOS0wLjQtMS43LTEuMS0yLjEtMkw0
+
+LjUsMjYuOUM2LjQsMzEuMSw5LjgsMzQuMywxNC4xLDM1Ljl6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0LjEsMzUuOWw0LjY
+
+tMTIuNGMtMC4zLTAuMS0wLjYtMC4zLTAuOS0wLjVsLTcuNywxMC43QzExLjMsMzQuNywxMi43LDM1LjQsMTQuMSwzNS45eiIvPj
+
+xwYXRoIGZpbGw9IiM0ZTdhYjUiIGQ9Ik0yMCwxNy41YzEuNCwwLDIuNSwxLjEsMi41LDIuNXMtMS4xLDIuNS0yLjUsMi41cy0yL
+
+jUtMS4xLTIuNS0yLjVTMTguNiwxNy41LDIwLDE3LjUgTTIwLDE1Yy0yLjgsMC01LDIuMi01LDUgczIuMiw1LDUsNXM1LTIuMiw1
+
+LTVTMjIuOCwxNSwyMCwxNUwyMCwxNXoiLz48L3N2Zz4=",
+                        lrc: el.getAttribute('lrc')
+                    }
+                }
+            }
+
+            function getFileNameFromUrl(url) {
+                if (typeof url === 'string') {
+                    // 创建一个<a>元素来模拟请求
+                    const a = document.createElement('a');
+                    a.href = url;
+
+                    // 获取URL的文件名
+                    return a.pathname.split('/').pop();
+                }
+            }
+
+            function getSuffix(url) {
+                if (typeof url === 'string') {
+                    // 创建一个<a>元素来模拟请求
+                    const a = document.createElement('a');
+                    a.href = url;
+
+                    // 获取URL的文件扩展名
+                    const pathArray = a.pathname.split('.');
+                    return pathArray[pathArray.length - 1];
+                }
+                return '';
+            }
+
+            function getMimeTypeFromSuffix(suffix) {
+                // 定义支持的MIME类型与文件扩展名的映射关系
+                const mimeTypes = {
+                    'mp3': 'audio/mpeg',
+                    'wav': 'audio/wav',
+                    'ogg': 'audio/ogg',
+                    'm3u': 'audio/x-mpegurl',
+                    'flac': 'audio/flac',
+                };
+
+                // 如果文件扩展名存在于映射关系中，则返回对应的MIME类型；否则返回null
+                return mimeTypes[suffix] || null;
+            }
+
+            function errorHTML(msg) {
+                return `<div class="audio-error-msg">
+                                <span class="error-icon" width="20" height="20"><svg 
+
+xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 
+
+6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM11 
+
+15V17H13V15H11ZM11 7V13H13V7H11Z"></path></svg></span>
+                                <span class="error-text">${msg || "错误"}</span>
+                            </div>`;
+            }
+        </script>
+                        <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Bookmarklet/index.css?
+
+h=6e8c2895d2925aa76b633b9f98e9f804">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Button/index.css?
+
+h=2cf87724f6b82f164fb239ee84690d47">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Card/index.css?
+
+h=414a24be2b5483c6f20e8306ea35a3c2">
+        <script>
+            function xCardInit() {
+                const xCards = document.querySelectorAll('.x-cards-wrapper:not([x-card-inited])');
+                for (let i = 0; i < xCards.length; i++) {
+                    xCards[i].setAttribute("x-card-inited", "true");
+                    xCards[i].querySelectorAll(":scope>br").forEach(br => 
+
+br.parentNode.removeChild(br));
+                    xCards[i].querySelectorAll(":scope>.x-card").forEach((card) => {
+                        card.firstElementChild.addEventListener('click', (e) => {
+                            let wrapper = e.currentTarget.closest(".x-cards-wrapper");
+                            let currentCard = e.currentTarget.closest(".x-card");
+                            let isFold = currentCard.classList.contains("fold");
+                            if (wrapper.getAttribute("type") === "blinds") {
+                                wrapper.querySelectorAll(".x-card").forEach((card) => {
+                                    card.classList.add("fold");
+                                });
+                            }
+                            if (isFold) {
+                                currentCard.classList.remove("fold");
+                            } else {
+                                currentCard.classList.add("fold");
+                            }
+                        });
+                    })
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', xCardInit);
+            document.addEventListener('pjax:complete', xCardInit);
+            document.addEventListener('XMPreviewEnd', xCardInit);
+        </script>
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Codepen/index.css?
+
+h=17313d1f21c00685132ddd9e5f52706f">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/GithubCard/index.css?
+
+h=14bee0a681bd91dd20c4de382a8690d0">
+        <script>
+            customElements.define(
+                'x-github',
+                class xGithub extends HTMLElement {
+                    constructor() {
+                        super();
+                        this.init();
+                    }
+
+                    async init() {
+                        const url = this.getAttribute("url")?.trim();
+                        if (!url) {
+                            this.innerHTML = ``;
+                            return;
+                        }
+
+                        const is_github = url.includes("github.com");
+                        const is_gitee = url.includes("gitee.com");
+                        const regex = this.getRegex(is_github, is_gitee);
+                        const match = regex.exec(url);
+
+
+                        if (match) { // Ensure the repository part is present
+                            const platform = is_github ? 'github' : 'gitee';
+                            if (match[1].length > 0 && match[2] === '/' && match[3].length > 0) {
+                                const [, user, , repo] = match;
+                                const cacheKey = `${platform}-repo:${user}/${repo}`;
+                                const cache = this.getWithExpiry(cacheKey);
+
+                                if (cache) {
+                                    const json = JSON.parse(cache);
+                                    this.renderRepo(json, is_gitee);
+                                } else {
+                                    const api = this.getRepoApiUrl(is_github, is_gitee, user, 
+
+repo);
+                                    if (!api) return;
+
+                                    try {
+                                        const response = await fetch(api);
+                                        const json = await response.json();
+                                        this.renderRepo(json, is_gitee);
+                                        this.setWithExpiry(cacheKey, JSON.stringify(json), 86400);
+                                    } catch (error) {
+                                        console.error('Error fetching API:', error);
+                                    }
+                                }
+                            } else if ((match[2] !== '/' && match[3].length > 0) || (match[2] === 
+
+'/' && !match[3].length > 0)) {
+                                const user = match[3].length ? match[3] : match[1];
+                                const cacheKey = `${platform}-user:${user}`;
+                                const cache = this.getWithExpiry(cacheKey);
+
+                                if (cache) {
+                                    const json = JSON.parse(cache);
+                                    this.renderUser(json, is_gitee);
+                                } else {
+                                    const api = this.getUserApiUrl(is_github, is_gitee, user);
+                                    if (!api) return;
+
+                                    try {
+                                        const response = await fetch(api);
+                                        const json = await response.json();
+                                        this.renderUser(json, is_gitee);
+                                        this.setWithExpiry(cacheKey, JSON.stringify(json), 86400);
+                                    } catch (error) {
+                                        console.error('Error fetching API:', error);
+                                    }
+                                }
+                            } else {
+                                this.innerHTML = `Invalid URL format.`;
+                            }
+                        } else {
+                            this.innerHTML = `Invalid URL format.`;
+                        }
+                    }
+
+                    getRegex(is_github, is_gitee) {
+                        if (is_github) {
+                            return /(?:git@|https?:\/\/)github.com\/([^\/]*)(\/?)(?<=\/)([.\w-]
+
+*=?)/is;
+                        } else if (is_gitee) {
+                            return /https?:\/\/gitee.com\/([^\/]*)(\/?)(?<=\/)([.\w-]*=?)/is;
+                        } else {
+                            return /([^\/]+)\/([^\/]+)/i;
+                        }
+                    }
+
+                    getRepoApiUrl(is_github, is_gitee, user, repo) {
+                        if (is_github) {
+                            return `https://api.github.com/repos/${user}/${repo}`;
+                        } else if (is_gitee) {
+                            return `https://gitee.com/api/v5/repos/${user}/${repo}`;
+                        }
+                        return null;
+                    }
+
+                    getUserApiUrl(is_github, is_gitee, user) {
+                        if (is_github) {
+                            return `https://api.github.com/users/${user}`;
+                        } else if (is_gitee) {
+                            return `https://gitee.com/api/v5/users/${user}`;
+                        }
+                    }
+
+                    renderRepo(json, is_gitee) {
+                        const icon = is_gitee ? this.giteeIcon() : this.githubIcon();
+                        this.innerHTML = this.parseRepoHTML(json, icon);
+                        if (is_gitee) {
+                            this.querySelector('.download-zip').style.display = 'none';
+                        }
+                    }
+
+                    renderUser(json, is_gitee) {
+                        const icon = is_gitee ? this.giteeIcon() : this.githubIcon();
+                        this.innerHTML = this.parseUserHTML(json, icon);
+                    }
+
+                    parseRepoHTML(json, icon) {
+                        return `<div class="x-github">
+                <div class="x-github-title">
+                    <span class="icon">${icon}</span>
+                    <a class="user reset" href="${json.owner.html_url}" target="_blank">
+
+${json.owner.login}</a>
+                    <span>/</span>
+                    <a class="x-github-repository reset" href="${json.html_url}" target="_blank">
+
+${json.name}</a>
+                    <div class="x-github-statics">
+                        <span class="forks">${this.forksIcon()}${json.forks_count}</span>
+                        <span class="slash">/</span>
+                        <span class="stars">${this.starsIcon()}${json.stargazers_count}</span>
+                    </div>
+                </div>
+                <div class="x-github-content">${json.description}</div>
+                <div class="x-github-footer">
+                    <a class="x-github-btn secondary reset" href="${json.html_url}" 
+
+target="_blank"><span class="x-github-btn-content">仓库</span></a>
+                    <a class="x-github-btn warning download-zip reset" 
+
+href="${json.html_url}/zipball/master" target="_blank"><span class="x-github-btn-content">下载 zip 
+
+文件</span></a>
+                </div>
+            </div>`;
+                    }
+
+                    parseUserHTML(json, icon) {
+                        return `<div class="x-github x-github-user">
+<a class="reset" href="${json.html_url}" target="_blank">
+   <span class="icon">${icon}</span>
+   <span class="name">${json.login}(${json.name})</span>
+</a>`;
+                    }
+
+                    giteeIcon() {
+                        return `<svg fill="#C71D23" width="16px" height="16px" viewBox="0 0 24 24" 
+
+role="img" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.984 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 
+
+12 0a12 12 0 0 0-.016 0zm6.09 5.333c.328 0 .593.266.592.593v1.482a.594.594 0 0 1
+
+-.593.592H9.777c-.982 0-1.778.796-1.778 1.778v5.63c0 .327.266.592.593.592h5.63c.982 0 1.778-.796 
+
+1.778-1.778v-.296a.593.593 0 0 0-.592-.593h-4.15a.592.592 0 0 1-.592-.592v-1.482a.593.593 0 0 1 
+
+.593-.592h6.815c.327 0 .593.265.593.592v3.408a4 4 0 0 1-4 4H5.926a.593.593 0 0 1-.593
+
+-.593V9.778a4.444 4.444 0 0 1 4.445-4.444h8.296z"/>
+            </svg>`;
+                    }
+
+                    githubIcon() {
+                        return `<svg width="20" height="20" fill="none" stroke="currentColor" 
+
+viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-
+
+width="2" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 
+
+1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 
+
+2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-
+
+2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-
+
+6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 
+
+38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-
+
+27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-
+
+8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 
+
+96.5-58.9 104.3-114.8 110.5 9.2 8 17.3 23.2 17.3 47.1 0 33.7-.3 74.9-.3 82.7 0 6.5 4.6 14.7 17.6 
+
+12.1C426.2 457.9 496 362.9 496 252 496 113.3 383.5 8 244.8 8z"/>
+            </svg>`;
+                    }
+
+                    forksIcon() {
+                        return `<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                <path fill-rule="evenodd" fill="currentColor" d="M5 3.09V12.9c-.6.3-1 .8-1 1.4 0 
+
+.8.8 1.7 2 1.7s2-.9 2-1.7c0-.6-.4-1.1-1-1.4v-4h3v.9c-.6.3-1 .8-1 1.4 0 .8.8 1.7 2 1.7s2-.9 2-1.7c0
+
+-.6-.4-1.1-1-1.4V6.09c.6-.3 1-.8 1-1.4 0-.8-.8-1.7-2-1.7s-2 .9-2 1.7c0 .6.4 1.1 1 1.4v2H7v-2c.6-.3 
+
+1-.8 1-1.4 0-.8-.8-1.7-2-1.7s-2 .9-2 1.7c0 .6.4 1.1 1 1.4z"></path>
+            </svg>`;
+                    }
+
+                    starsIcon() {
+                        return `<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                <path fill-rule="evenodd" fill="currentColor" d="M8 12.7l-4.3 2.3c-.5.3-1-.2-.8
+
+-.8l.8-4.7-3.5-3.4c-.4-.4-.2-1.1.4-1.2l4.8-.7 2.2-4.5c.3-.5 1-.5 1.2 0l2.2 4.5 4.8.7c.6.1.8.8.4 
+
+1.2l-3.5 3.4.8 4.7c.1.6-.5 1.1-.9.8L8 12.7z"></path>
+            </svg>`;
+                    }
+
+                    setWithExpiry(key, value, ttl) {
+                        const now = new Date();
+                        const item = {
+                            value: value,
+                            expiry: now.getTime() + ttl * 1000,
+                        };
+                        localStorage.setItem(key, JSON.stringify(item));
+                    }
+
+                    getWithExpiry(key) {
+                        const itemStr = localStorage.getItem(key);
+                        if (!itemStr) return null;
+
+                        const item = JSON.parse(itemStr);
+                        const now = new Date();
+                        if (now.getTime() > item.expiry) {
+                            localStorage.removeItem(key);
+                            return null;
+                        }
+                        return item.value;
+                    }
+                }
+            );
+        </script>
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/LinkCard/index.css?
+
+h=9f02d70a45704f541857ab573c9aab15">
+        <script>
+            customElements.define(
+                'x-link',
+                class xLink extends HTMLElement {
+                    constructor() {
+                        super();
+                        this.options = {
+                            title: this.getAttribute("title") || this.getAttribute("url") || "",
+                            url: this.getAttribute("url"),
+                            icon: this.getAttribute("icon") || 
+
+"https://www.minehive.cn/usr/plugins/AAEditor/index.php?url=" + this.getAttribute("url"),
+                        }
+                        if (this.options.url) {
+                            this.outerHTML = `
+                <a class="x-link" href="${this.options.url}" target="_blank">
+                    <div class="x-link-backdrop"></div>
+                    <div class="x-link-content">
+                        <span class="x-link-title">${this.options.title}</span>
+                        <span class="x-link-icon" style="background-image: url
+
+(${this.options.icon})"></span>
+                    </div>
+                </a>
+            `;
+                        }
+                    }
+
+                }
+            );
+        </script>
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Photos/index.css?
+
+h=8f2efd8f8a69300aa08bd872112c485a">
+        <script>
+            function initPhotos() {
+                Array.from(document.querySelectorAll(".x-photos.google")).forEach(el => {
+                    if (el.hasAttribute("loaded")) return;
+                    el.setAttribute("loaded", true);
+                    let widthBase = el.clientWidth > 960 ? 200 : (el.clientWidth > 640 ? 150 : 
+
+100);
+                    Array.from(el.childNodes).forEach(c => {
+                        if (c.tagName === "BR") {
+                            el.removeChild(c);
+                        } else if (c.tagName === "IMG") {
+                            let img = new Image();
+                            img.src = c.src;
+                            let wrap = document.createElement('div'),
+                                i = document.createElement('i');
+                            wrap.className = "photo";
+                            el.insertBefore(wrap, c);
+                            wrap.appendChild(i);
+                            wrap.appendChild(c);
+                            c.classList.add('parsed');
+                            if (img.complete) {
+                                wrap.style.width = img.width * widthBase / img.height + "px";
+                                wrap.style.flexGrow = img.width * widthBase / img.height;
+                                i.style.paddingBottom = img.height / img.width * 100 + "%";
+                            } else {
+                                img.addEventListener("load", function () {
+                                    wrap.style.width = img.width * widthBase / img.height + "px";
+                                    wrap.style.flexGrow = img.width * widthBase / img.height;
+                                    i.style.paddingBottom = img.height / img.width * 100 + "%";
+                                });
+                            }
+                        } else if (c.tagName === "a" && c.querySelector("img")) {
+                            a.classList.add("photo");
+                            c.querySelector('img').classList.add('parsed');
+                            let img = new Image();
+                            img.src = c.src;
+                            let i = document.createElement('i');
+                            c.appendChild(i);
+                            if (img.complete) {
+                                c.style.width = img.width * widthBase / img.height + "px";
+                                c.style.flexGrow = img.width * widthBase / img.height;
+                                i.style.paddingBottom = img.height / img.width * 100 + "%";
+                            } else {
+                                img.addEventListener("load", function () {
+                                    c.style.width = img.width * widthBase / img.height + "px";
+                                    c.style.flexGrow = img.width * widthBase / img.height;
+                                    i.style.paddingBottom = img.height / img.width * 100 + "%";
+                                });
+                            }
+                        }
+                    });
+                });
+            }
+
+            function debounce(func, wait) {
+                let timeout;
+                return function () {
+                    const context = this;
+                    const args = arguments;
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => {
+                        func.apply(context, args);
+                    }, wait);
+                };
+            }
+
+            function refreshWidth() {
+                Array.from(document.querySelectorAll(".x-photos.google[loaded]")).forEach(el => {
+                    let widthBase = el.clientWidth > 960 ? 200 : (el.clientWidth > 640 ? 150 : 
+
+100);
+                    Array.from(el.childNodes).forEach(c => {
+                        if (c.classList.contains("photo") && c.querySelector("i") && 
+
+c.querySelector("img")) {
+                            let img = c.querySelector("img");
+                            c.style.width = img.width * widthBase / img.height + "px";
+                            c.style.flexGrow = img.width * widthBase / img.height;
+                            c.querySelector("i").style.paddingBottom = img.height / img.width * 100 
+
++ "%";
+                        }
+                    });
+                });
+            }
+
+                        initPhotos();
+            document.addEventListener("pjax:complete", initPhotos);
+            window.addEventListener("resize", debounce(refreshWidth, 300));
+                    </script>
+                        <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Post/index.css?
+
+h=1df59bd2ff12aa7e4656b4c7a12e95ec">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Scode/index.css?
+
+h=20d8f3d2362c2969a82c7f22fac0f073">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Span/index.css?
+
+h=5eb62693d7126048eef1ff884d65243b">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Tabs/index.css?
+
+h=4e49b41ed44dde4edd9354358a359b2d">
+        <script>
+            customElements.define(
+                'x-tabs',
+                class xTabs extends HTMLElement {
+                    constructor() {
+                        super();
+                        this.classList.add('x-tabs');
+                        Array.from(this.querySelectorAll(':scope>br')).forEach(b => 
+
+this.removeChild(b));
+                        let tabs = Array.from(this.querySelectorAll(':scope>.x-tab'));
+                        if (tabs.length) {
+                            let tabNav = document.createElement('ul'),
+                                tabContent = document.createElement('div');
+                            tabNav.className = 'x-tabs-nav';
+                            tabContent.className = 'x-tabs-content';
+                            for (let i = 0; i < tabs.length; i++) {
+                                let tab = tabs[i],
+                                    tabNavItem = document.createElement('li'),
+                                    tabContentItem = document.createElement('div');
+                                if (tab.getAttribute('active') === "true") {
+                                    this.setAttribute("active", i + 1);
+                                }
+                                tabNavItem.className = 'x-tabs-nav-item';
+                                tabNavItem.setAttribute('tabindex', i + 1);
+                                let name = tab.getAttribute('name');
+                                let title = tab.getAttribute('title');
+                                tabNavItem.innerHTML = '<span>' + (name ? name : (title ? title : '
+
+标签'.replace("%d", i + 1))) + '<span>';
+                                tabNavItem.addEventListener('click', () => {
+                                    this.setAttribute('active', tabNavItem.getAttribute
+
+('tabindex'));
+                                })
+                                tabNav.appendChild(tabNavItem);
+                                tabContentItem.className = 'x-tabs-content-item';
+                                tabContentItem.setAttribute('tabindex', i + 1);
+                                if (tab.firstElementChild && tab.firstElementChild.tagName === 
+
+"BR") {
+                                    tab.removeChild(tab.firstElementChild);
+                                }
+                                if (tab.lastElementChild && tab.lastElementChild.tagName === "BR") 
+
+{
+                                    tab.removeChild(tab.lastElementChild);
+                                }
+                                tabContentItem.innerHTML = tab.innerHTML;
+                                if (tab.previousSibling && tab.previousSibling.tagName === "SPAN" 
+
+&& tab.previousSibling.className === 'line') {
+                                    if (tabContentItem.firstElementChild) {
+                                        tabContentItem.insertBefore(tab.previousSibling, 
+
+tabContentItem.firstElementChild);
+                                    } else {
+                                        tabContentItem.appendChild(tab.previousSibling);
+                                    }
+                                }
+                                if (tabContentItem.firstElementChild && 
+
+tabContentItem.firstElementChild.tagName.toString() === "P" && 
+
+tabContentItem.firstElementChild.innerHTML == "") {
+                                    tabContentItem.removeChild(tabContentItem.firstElementChild);
+                                }
+                                if (tabContentItem.lastElementChild && 
+
+tabContentItem.lastElementChild.tagName.toString() === "P" && 
+
+tabContentItem.lastElementChild.innerHTML == "") {
+                                    tabContentItem.removeChild(tabContentItem.lastElementChild);
+                                }
+                                let {children: chlren} = tabContentItem;
+                                let chl = chlren.length;
+                                if (chl > 2 && chlren[chl - 2].matches('br') && chlren[chl - 
+
+1].matches('span.line[data-start]')) {
+                                    chlren[chl - 2].remove();
+                                }
+                                tabContent.appendChild(tabContentItem);
+                                this.removeChild(tab);
+                            }
+                            this.appendChild(tabNav);
+                            this.appendChild(tabContent);
+
+                            Array.from(this.querySelectorAll(':scope>span.line')).forEach(span => {
+                                if (span.nextElementSibling && 
+
+span.nextElementSibling.classList.contains('x-tabs-content-item')) {
+                                    span.nextElementSibling.insertBefore(span, 
+
+span.nextElementSibling.firstElementChild);
+                                } else {
+                                    span.parentNode.removeChild(span);
+                                }
+                            });
+
+                            if (!this.hasAttribute("active") && tabNav.childElementCount) {
+                                this.setAttribute('active', 1);
+                            }
+
+                            switchToTab(this.getAttribute('active'));
+
+                            let observer = new MutationObserver((mutations) => {
+                                mutations.forEach(mutation => {
+                                    if (mutation.attributeName === "active") {
+                                        switchToTab(mutation.target.getAttribute('active'));
+                                    }
+                                })
+                            });
+
+                            observer.observe(this, {
+                                attributes: true
+                            })
+
+                            function switchToTab(tabindex) {
+                                Array.from(tabNav.querySelectorAll('.x-tabs-nav-item-
+
+active')).forEach(navItem => {
+                                    navItem.classList.remove('x-tabs-nav-item-active');
+                                });
+                                Array.from(tabContent.querySelectorAll('.x-tabs-content-item-
+
+active')).forEach(contentItem => {
+                                    contentItem.classList.remove('x-tabs-content-item-active');
+                                });
+                                tabNav.querySelector(`:scope>[tabindex="${tabindex}"]
+
+`).classList.add('x-tabs-nav-item-active');
+                                tabContent.querySelector(`:scope>[tabindex="${tabindex}"]
+
+`).classList.add('x-tabs-content-item-active');
+                            }
+                        }
+                    }
+                }
+            );
+        </script>
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Title/index.css?
+
+h=ef2643abc4f4fbc53d9fc86eb4da6b0c">
+                <link rel="stylesheet"
+              href="https://www.minehive.cn/usr/plugins/AAEditor/Modules/Video/index.css?
+
+h=e65bc67fb02a318ab29ca84f45d81804">
+        <script>
+// Powered by wuxianucw
+console.log('PartiallyPassword is enabled.');
+</script><!-- Uptime Start -->
+<script defer>
+(function(){
+	function timeDuration(time1, time2) {
+		var duration = ( time2.getTime() - time1.getTime() ) /1000; // its unit is second
+		var second = Math.floor(duration) % 60;  // 60 seconds become 1 minute
+		duration /= 60;
+		var minute = Math.floor(duration) % 60; // 60 minutes become 1 hour
+		duration /= 60;
+		var hour = Math.floor(duration) % 24; // 24 hour become 1 day
+		duration /= 24;
+		var day = Math.floor(duration);
+		return {day:day, hour:hour, minute:minute, second:second}
+	}
+	setInterval(function(){
+		// timestamp is seconds in php but milliseconds in js, difference of 1000 times.
+		var start_timestamp = 1726761600*1000; 
+		var duration = timeDuration(new Date(start_timestamp),new Date());
+		var text = "小破站已存活" + duration.day + "天" + duration.hour + "小时" + 
+
+duration.minute + "分" + duration.second + "秒";
+		document.querySelector(".uptime").innerText = text;
+	});
+})();
+</script>
+<!-- Uptime End -->
+
+
+<!-- 回到顶端 -->
+<body>
+  <div class="go-top dn" id="go-top" style="display: none;">
+    <a href="#" class="go icon-up-open" aria-label="返回顶部"></a>
+  </div>
+</body>
+
+<!-- AOS -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init();
+  });
+</script>
+
+<!-- 代码高亮 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 初始化 highlight.js
+    hljs.highlightAll();
+  });
+</script>
+
+<!-- 后台script标签 -->
