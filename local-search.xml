@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>记一篇网站收录的教程</title>
+    <link href="/2025/04/04/%E8%AE%B0%E4%B8%80%E7%AF%87%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95%E7%9A%84%E6%95%99%E7%A8%8B/"/>
+    <url>/2025/04/04/%E8%AE%B0%E4%B8%80%E7%AF%87%E7%BD%91%E7%AB%99%E6%94%B6%E5%BD%95%E7%9A%84%E6%95%99%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<p>受邀写一篇网站收录教程，其实网站整体是很简单的，今天就简单从必应收录、谷歌收录和百度收录来简单讲一下</p><h5 id="版权所有，未经允许严禁转载"><a href="#版权所有，未经允许严禁转载" class="headerlink" title="版权所有，未经允许严禁转载"></a>版权所有，未经允许严禁转载</h5><h4 id="必应收录"><a href="#必应收录" class="headerlink" title="必应收录"></a>必应收录</h4><ol><li>登录<a href="https://www.bing.com/webmasters/about?setlang=zh-cn&setmkt=zh-cn" title="必应网站管理员工具">必应网站管理员工具</a>（<a href="https://www.bing.com/webmasters/about?setlang=zh-cn&setmkt=zh-cn%EF%BC%89">https://www.bing.com/webmasters/about?setlang=zh-cn&amp;setmkt=zh-cn）</a> ，登录账号（推荐使用微软账号，微软账户注册就不写教程了），选择一种验证方法，验证通过后即可</li><li>侧边栏选择<a href="https://www.bing.com/webmasters/submiturl" title="URL提交">URL提交</a>，点击提交URL即可</li><li>（可选）网站地图：使用网站地图生成工具（例如<a href="https://sitemap.zhetao.com/" title="sitemap.zhetao.com">sitemap.zhetao.com</a>），生成网站地图后选择侧边栏的<a href="https://www.bing.com/webmasters/sitemaps" title="网站地图">网站地图</a>上传，有助于搜索引擎爬取</li></ol><p>图：<br><img src="https://img.picui.cn/free/2025/04/03/67eeae59ea704.png" alt="QQ20250403-205353.png"><br><img src="https://img.picui.cn/free/2025/04/03/67eeae59d3902.png" alt="QQ20250403-205535.png"></p><h4 id="谷歌收录"><a href="#谷歌收录" class="headerlink" title="谷歌收录"></a>谷歌收录</h4><ol><li>登录<a href="https://search.google.com/search-console/welcome?hl=zh-CN&utm_source=wmx&utm_medium=deprecation-pane&utm_content=home" title="谷歌网站管理员工具">谷歌网站管理员工具</a>，同样进行域名验证</li><li>验证通过后前往菜单栏选择<a href="https://search.google.com/search-console/links" title="链接">链接</a>提交</li><li>（可选）网站地图：使用网站地图生成工具（例如<a href="https://sitemap.zhetao.com/" title="sitemap.zhetao.com">sitemap.zhetao.com</a>），生成网站地图后选择侧边栏的<a href="https://search.google.com/search-console/sitemaps" title="网站地图">网站地图</a>上传，有助于搜索引擎爬取</li></ol><h4 id="百度收录"><a href="#百度收录" class="headerlink" title="百度收录"></a>百度收录</h4><p>写到现在已经凌晨了，明天再继续写吧awa</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>[教程]Redmi K40刷澎湃OS2+Root</title>
     <link href="/2025/03/13/k40-to-os2-and-root/"/>
     <url>/2025/03/13/k40-to-os2-and-root/</url>
